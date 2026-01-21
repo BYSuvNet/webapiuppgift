@@ -35,7 +35,7 @@ Du ska skapa ett enkelt webapi som hanterar events. Via APIet ska det gå att sk
 }
 ```
 
-### Hämta en registrering ska returnera detta:
+### En registrering ska se ut så här (ska ligga i en lista när de hämtas)
 ```json
 {
   "id": 1,
