@@ -1,4 +1,4 @@
-# Webapiuppgift
+# WebAPI-uppgift
 
 Jag har låtit anlita ett gäng koola kids som designat en modern hemsida för events (folk är trötta på Facebook, det här kommer bli stort!). Tyvärr hade mina utvecklare ingen tid till att implementera backend-delen, så det får du fixa! En linux-konsult fick i uppdrag att ta fram en konsolapplikation för att skapa nya events, men det blev tyvärr bara delvis klart. Skriv klart den applikationen så att det går att lägga till events!
 
