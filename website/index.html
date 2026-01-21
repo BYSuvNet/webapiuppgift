@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eventsiten!</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>🎉 WELCOME TO THE EVENT ZONE! 🎉</h1>
+                <marquee behavior="scroll" direction="left">⭐ Register for awesome events today! ⭐ Limited spots available! ⭐</marquee>
+            </header>
+
+            <div class="main-content">
+                <h2>🔥 UPCOMING EVENTS 🔥</h2>
+                <div id="upcoming-events">
+                    <p>Loading events...</p>
+                </div>
+            </div>
+
+            <footer>
+                <p>🌐 Best viewed in Netscape Navigator 4.0 or Internet Explorer 3.0 🌐</p>
+                <p><a href="mailto:webmaster@events.com">Email the Webmaster</a></p>
+                <p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="counter" width="60" height="20" style="background: #000; color: #0f0; padding: 2px;"> You are visitor #999999</p>
+            </footer>
+        </div>
+
+        <!-- Event Registration Page (hidden by default) -->
+        <div id="registration-page" class="hidden">
+            <div class="container">
+                <header>
+                    <h1>📝 EVENT REGISTRATION 📝</h1>
+                    <button onclick="showMainPage()" class="back-button">⬅️ Back to Events</button>
+                </header>
+
+                <div class="main-content">
+                    <div id="event-details"></div>
+
+                    <h3>🎫 REGISTRATION FORM 🎫</h3>
+                    <form id="registration-form">
+                        <table border="2" cellpadding="10" cellspacing="0" bgcolor="#ffff99">
+                            <tr>
+                                <td><b>Your Name:</b></td>
+                                <td><input type="text" id="reg-name" name="name" required size="30"></td>
+                            </tr>
+                            <tr>
+                                <td><b>Your Email:</b></td>
+                                <td><input type="email" id="reg-email" name="email" required size="30"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <button type="submit" class="submit-button">✅ REGISTER NOW! ✅</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                    <div id="message"></div>
+
+                    <h3>👥 CURRENT REGISTRATIONS 👥</h3>
+                    <div id="registrations-list"></div>
+                </div>
+            </div>
+        </div>
+    </body>    
+</html>
